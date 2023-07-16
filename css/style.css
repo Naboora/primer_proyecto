@@ -1,0 +1,223 @@
+@font-face {
+    font-family: altaletra;
+    src: url("Kenyan Coffee Bold.ttf");
+}
+* { margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.header-grids {
+    width: 100%;
+}
+
+
+body {
+    background-color: #414040
+
+}
+
+/*header*/
+
+.header{
+    width: 100%;
+    display: flex;
+    background-color:#272727;
+    justify-content: space-between;
+    color: white;
+
+}
+
+.header nav {
+    margin: 10px;
+}
+
+.navbar {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    text-decoration: none;
+
+}
+.navbar li a {
+    text-decoration: none;
+}
+
+
+.logo-navbar {
+    display: flex;
+}
+.logo-img { width: 40px;
+    height: 40px;
+
+}
+
+/*main*/
+.main {
+    background-color: #414040;
+}
+
+.hamburguesamenu { 
+    width: 200px;
+    height: 200px;
+    border-radius: 10%
+}
+.papasmenu {
+    width: 200px;
+    height: 200px;
+    border-radius: 10% ;
+}
+.bebidamenu {
+    width: 200px;
+    height: 200px;
+    border-radius: 10%
+}
+
+.carrucel-piola {
+    height: 500px; 
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-inner img {
+    width: 100%; /*  ancho  */
+    height: auto; /*  altura  */
+
+}
+
+/* index */
+.burguersimple {
+    width: 200px;
+    height: 200px;
+    
+}
+
+.card {
+    width: 15rem;
+    
+}
+.cartas {
+    width: 70%;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin-left: 180px;
+}
+
+.img-ofertas {
+    width: 300px;
+    height: 200px;
+    border: 2px solid black;
+}
+
+.precios {
+    color: #FFD369;
+}
+
+.h3-2{
+    color: white;
+} 
+.aside {
+    display: flex;
+    gap: 300px;
+    justify-content: center;
+}
+
+/* contacto */
+.formulario {
+    width: 400px;
+    background-color: #FFD369;
+    padding: 30px;
+    margin:auto;
+    margin-top: 100px;
+
+}
+
+.formulario h2 {
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+.controles {
+    margin-bottom: 16px;
+    border: 1px solid #222831;
+}
+
+
+/*footer*/
+.piepagina ul  a{
+    text-decoration: none;
+    list-style: none;
+
+}
+.piepagina {
+    background-color: #222831;
+    display: flex;
+    justify-content: space-between;
+
+}
+.parrafos {
+    margin: 20px;
+    color: white;
+}
+
+.piepagina ul {
+    list-style:none ;
+    margin: 20px;
+}
+
+
+
+footer {
+    background-color: rgb(29, 28, 28);
+    bottom: 0;
+
+}
+.footer-contacto{ 
+    background-color: #222831;
+}
+
+/*nosotros*/
+.main-nosotros {
+    width: 90%;
+    max-width: 1000px;
+    margin: 1.6em auto;
+    
+    grid-template-columns:repeat(2,1fr) ;
+    background-color: #222831;
+}
+.article-derecha {
+    color: white;
+}
+.main-nosotros {
+    display: grid;
+
+grid-template-columns: repeat(2,1fr);
+}
+.main-nosotros h2 {
+    text-align: center;
+}
+.grid-body-nosotros {
+    background-color:  #414040;
+}
+
+
+
+@media (max-width:1024px){
+
+}
+
+@media (max-width:768px){
+
+}
+@media (max-width:480px){
+
+}
+@media (max-width:375px){
+
+}
+@media (max-width:320px){
+
+}
