@@ -14,8 +14,8 @@
 
 
 body {
-    background-color: #414040
-
+    background-color: #414040;
+    font-family: altaletra;
 }
 
 /*header*/
@@ -36,12 +36,14 @@ body {
 .navbar {
     display: flex;
     list-style: none;
-    gap: 30px;
+    gap: 40px;
     text-decoration: none;
 
 }
 .navbar li a {
     text-decoration: none;
+    color: white;
+    font-size: 20px;
 }
 
 
@@ -150,12 +152,14 @@ body {
 .piepagina ul  a{
     text-decoration: none;
     list-style: none;
+    color: white;
 
 }
 .piepagina {
     background-color: #222831;
     display: flex;
     justify-content: space-between;
+    font-size: 17x;
 
 }
 .parrafos {
@@ -184,9 +188,11 @@ footer {
     width: 90%;
     max-width: 1000px;
     margin: 1.6em auto;
-    
     grid-template-columns:repeat(2,1fr) ;
     background-color: #222831;
+}
+.header-grids {
+    font-family: altaletra;
 }
 .article-derecha {
     color: white;
