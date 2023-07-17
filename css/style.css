@@ -14,7 +14,6 @@
 
 
 body {
-    background-color: #414040;
     font-family: altaletra;
 }
 
@@ -30,7 +29,7 @@ body {
 }
 
 .header nav {
-    margin: 10px;
+    margin: 20px;
 }
 
 .navbar {
@@ -45,6 +44,10 @@ body {
     color: white;
     font-size: 20px;
 }
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+}
 
 
 .logo-navbar {
@@ -57,7 +60,13 @@ body {
 
 /*main*/
 .main {
-    background-color: #414040;
+
+    background-image: url(../assets/img/fondohambur.jpg) ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    
 }
 
 .hamburguesamenu { 
@@ -106,13 +115,16 @@ body {
     display: flex;
     gap: 40px;
     justify-content: center;
-    margin-left: 180px;
+    margin: auto;
 }
 
 .img-ofertas {
     width: 300px;
     height: 200px;
     border: 2px solid black;
+}
+.ofertas {
+    margin-bottom: 5rem;
 }
 
 .precios {
@@ -124,7 +136,7 @@ body {
 } 
 .aside {
     display: flex;
-    gap: 300px;
+    gap: 50px;
     justify-content: center;
 }
 
@@ -182,6 +194,10 @@ footer {
 .footer-contacto{ 
     background-color: #222831;
 }
+.relleno-contacto {
+    height:  150px;
+    width:50% ;
+}
 
 /*nosotros*/
 .main-nosotros {
@@ -208,21 +224,47 @@ grid-template-columns: repeat(2,1fr);
 .grid-body-nosotros {
     background-color:  #414040;
 }
-
+/*contacto*/
+.main-contacto {
+color:white;
+background-color: #414040;
+}
+.h2-Contacto {
+    text-align: center;
+}
+.main-contacto h2 {
+    font-size: 50px;
+}
+.main-contacto p {
+    font-size: 30px;
+    padding: 10px;
+}
 
 
 @media (max-width:1024px){
+
 
 }
 
 @media (max-width:768px){
 
+
 }
-@media (max-width:480px){
+@media (max-width:425px){
+    .aside { 
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
 
 }
 @media (max-width:375px){
-
+    .header { display: flex;
+    flex-direction: column;
+}
+ .formulario {
+    width: 300px;
+ }
 }
 @media (max-width:320px){
 
