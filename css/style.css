@@ -69,6 +69,10 @@ body {
     
 }
 
+.main-menu {
+    background-image: url(../assets/img/fondo2.avif) ;
+}
+
 .hamburguesamenu { 
     width: 200px;
     height: 200px;
@@ -198,6 +202,16 @@ footer {
     height:  150px;
     width:50% ;
 }
+.rellenenito {
+    height: 10px;
+}
+
+.titles-menus {
+    color: white;
+    font-size: 50px;
+
+}
+
 
 /*nosotros*/
 .main-nosotros {
@@ -205,10 +219,11 @@ footer {
     max-width: 1000px;
     margin: 1.6em auto;
     grid-template-columns:repeat(2,1fr) ;
-    background-color: #222831;
+    background-color: #414040;
 }
 .header-grids {
     font-family: altaletra;
+    background-image: url(../assets/img/fondo2.avif);
 }
 .article-derecha {
     color: white;

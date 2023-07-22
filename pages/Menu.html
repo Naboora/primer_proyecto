@@ -2,66 +2,209 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu</title>
-    <link rel="stylesheet" href="../css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
-<body>
-<header>
-        <nav>
-            <div>
-                <img src="../assets/img/hamburguesa (1).png" alt="">
-                <h1>HAMBURGO</h1>
-                <img src="../assets/img/cerveza (1).png" alt="">
+<body class="header-grids">
+    <header class="header">
+        <div>
+            <div class="logo-navbar">
+                <img class="logo-img" src="../assets/img/hamburguesa (1).png" alt="">
+                <h1>Beer and Burgers</h1>
+                <img class="logo-img" src="../assets/img/cerveza (1).png" alt="">
             </div>
-                <ul>
-                    <li>
-                        <a href="../index.html">inicio</a>
-                    </li>
-                    <li>
-                        <a href="../pages/Menu.html">Menu</a>
-                    </li>
-                    <li>
-                        <a href="../pages/nosotros.html">nosotros</a>
-                    </li>
-                    <li>
-                        <a href="./contacto.html">Contacto</a>
-                    </li>
-                    <li>
-                        <a href="../pages/carrito.html"><img src="../assets/img/carrito-de-compras (1).png" alt=""></a>
-                    </li>
+        </div>
+            <div>
+                <nav>
+                <ul class="navbar">
+                    <li><a href="../index.html">inicio</a></li>
+                    <li><a href="../pages/Menu.html">Menu</a></li>
+                    <li><a href="../pages/nosotros.html">nosotros</a></li>
+                    <li><a href="./contacto.html">Contacto</a></li>
+                    <li><a href="../pages/carrito.html"><img src="../assets/img/carrito-de-compras (1).png" alt=""></a></li>
                 </ul>
+            </div>
         </nav>
-</header>
-<main>
-    <h2>Menu</h2>
-    <h4>Que se te antoja hoy?</h4>
-    <!-- esto se podria seleccionar que te llevaria a otra seccion donde estarian,todas las hamburguesas,bebidas y papas cada una con una seccion diferente -->
-    <section>
-        <div>
-            <h4>hamburguesas</h4>
-            <img class="hamburguesamenu" src="../assets/img/hamburguesa.jpg" alt="" >
+    </header>
+<main class="main-menu">
+<!--HAMBURGUEAS-->
+<div class="cartas row" >
+    <div >
+        <h2 class="titles-menus">Menu</h2>
+    </div>
+        
+    <h4 class="titles-menus">Hamburguesas</h4>    
+
+    <div class="card col-4">
+        <img src="../assets/img/cheseburguer.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+        <h4 class="card-title">Cheese Burger Simple</h4>
+        <h5 class="card-title">Ingredientes:</h5>
+        <p class="card-text">
+            Pan-Carne-Queso-Morron-Cebolla-Ketchup-pepino
+        </p>
+            <a href="#" class="btn btn-primary">agregar al carrito</a>
         </div>
-        <div>
-            <h4>Bebida</h4>
-            <img class="bebidamenu" src="../assets/img/Cerveza.jpg" alt="">
+    </div>
+
+
+<div class="card col-4">
+    <img src="../assets/img/cheseburguer.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+    <h5 class="card-title">Simple</h5>
+    <p class="card-text"></p>
+        <a href="#" class="btn btn-primary">agregar al carrito</a>
+    </div>
+</div>
+
+<div class="card col-4">
+    <img src="../assets/img/cheseburguer.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+    <h5 class="card-title">Simple</h5>
+    <p class="card-text"></p>
+        <a href="#" class="btn btn-primary">agregar al carrito</a>
+    </div>
+</div>
+
+<div class="card col-4">
+    <img src="../assets/img/cheseburguer.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+    <h5 class="card-title">Simple</h5>
+    <p class="card-text"></p>
+        <a href="#" class="btn btn-primary">agregar al carrito</a>
+    </div>
+</div>
+
+<div class="card col-4">
+    <img src="../assets/img/cheseburguer.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+    <h5 class="card-title">Simple</h5>
+    <p class="card-text"></p>
+        <a href="#" class="btn btn-primary">agregar al carrito</a>
+    </div>
+</div>
+<div class="card col-4">
+    <img src="../assets/img/cheseburguer.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+    <h5 class="card-title">Simple</h5>
+    <p class="card-text"></p>
+        <a href="#" class="btn btn-primary">agregar al carrito</a>
+    </div>
+</div>
+
+<!--BEBIDAS-->
+        <div><h4 class="titles-menus">Bebida</h4></div>
+        <div class="card col-4">
+            <img src="../assets/img/Coca-Cola_Original_500ml_-2748.png" class="card-img-top" alt="...">
+            <div class="card-body">
+            <h5 class="card-title">Coca cola</h5>
+                <a href="#" class="btn btn-primary">agregar al carrito</a>
+            </div>
         </div>
-        <div>
-            <h4>Papas</h4>
-            <img class="papasmenu" src="../assets/img/papascheddarmorixe02.jpg" alt="">
+        <div class="card col-4">
+            <img src="../assets/img/" class="card-img-top" alt="...">
+            <div class="card-body">
+            <h5 class="card-title">Simple</h5>
+            <p class="card-text"></p>
+                <a href="#" class="btn btn-primary">agregar al carrito</a>
+            </div>
         </div>
-    </section>
+        <div class="card col-4">
+            <img src="../assets/img/" class="card-img-top" alt="...">
+            <div class="card-body">
+            <h5 class="card-title">Simple</h5>
+            <p class="card-text"></p>
+                <a href="#" class="btn btn-primary">agregar al carrito</a>
+            </div>
+        </div>
+        <div class="card col-4">
+            <img src="../assets/img/" class="card-img-top" alt="...">
+            <div class="card-body">
+            <h5 class="card-title">Simple</h5>
+            <p class="card-text"></p>
+                <a href="#" class="btn btn-primary">agregar al carrito</a>
+            </div>
+        </div>
+        <div class="card col-4">
+            <img src="../assets/img/" class="card-img-top" alt="...">
+            <div class="card-body">
+            <h5 class="card-title">Simple</h5>
+            <p class="card-text"></p>
+                <a href="#" class="btn btn-primary">agregar al carrito</a>
+            </div>
+        </div>
+        <div class="card col-4">
+            <img src="../assets/img/" class="card-img-top" alt="...">
+            <div class="card-body">
+            <h5 class="card-title">Simple</h5>
+            <p class="card-text"></p>
+                <a href="#" class="btn btn-primary">agregar al carrito</a>
+            </div>
+        </div>
+    <!--PAPAS-->
+
+        <div><h4 class="titles-menus">Papas</h4></div>
+        <div class="card col-4">
+            <img src="../assets/img/papasfritas.png" class="card-img-top" alt="...">
+            <div class="card-body">
+            <h5 class="card-title">Papas Simples</h5>
+                <a href="#" class="btn btn-primary">agregar al carrito</a>
+            </div>
+        </div>
+        <div class="card col-4">
+            <img src="../assets/img/papasfritas.png" class="card-img-top" alt="...">
+            <div class="card-body">
+            <h5 class="card-title">Simple</h5>
+                <a href="#" class="btn btn-primary">agregar al carrito</a>
+            </div>
+        </div>
+        <div class="card col-4">
+            <img src="../assets/img/papasfritas.png" class="card-img-top" alt="...">
+            <div class="card-body">
+            <h5 class="card-title">Simple</h5>
+                <a href="#" class="btn btn-primary">agregar al carrito</a>
+            </div>
+        </div>
+        <div class="card col-4">
+            <img src="../assets/img/papasfritas.png" class="card-img-top" alt="...">
+            <div class="card-body">
+            <h5 class="card-title">Simple</h5>
+                <a href="#" class="btn btn-primary">agregar al carrito</a>
+            </div>
+        </div>
+        <div class="card col-4">
+            <img src="../assets/img/papasfritas.png" class="card-img-top" alt="...">
+            <div class="card-body">
+            <h5 class="card-title">Simple</h5>
+                <a href="#" class="btn btn-primary">agregar al carrito</a>
+            </div>
+        </div>
+        <div class="card col-4">
+            <img src="../assets/img/papasfritas.png" class="card-img-top" alt="...">
+            <div class="card-body">
+            <h5 class="card-title">Simple</h5>
+                <a href="#" class="btn btn-primary">agregar al carrito</a>
+            </div>
+        </div>
+
+
+    </div>
+
 </main>
-<footer>
-    <div>
+<footer class="footer">   
+    <div class="piepagina">
+        <div class="parrafos">
         <p>Contactanos o seguinos en nuestras <b>redes</b></p>
+        <p>Aviso de derechos de autor y restriccion en links </p>
+    </div>
         <ul>
             <li><a href="https://www.instagram.com/tobias.fourcade/"><img src="../assets/img/instagram.png" alt="">instagram</a></li>
             <li><a href="https://www.facebook.com/"><img src="../assets/img/facebook.png" alt="">facebook</a></li>
             <li><a href="https://web.whatsapp.com/"><img src="../assets/img/whatsapp.png" alt="">whatsapp</a></li>
         </ul>
-        <p>Aviso de derechos de autor y restriccion en links </p>
     </div>
 </footer>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
