@@ -1,4 +1,4 @@
-GIT "Comandos"
+git GIT "Comandos"
 pwd : dice donde estamos ubicados
 
 ls: muestra todos los archivos donde estamos ubicados 

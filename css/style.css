@@ -44,6 +44,13 @@ body {
     color: white;
     font-size: 20px;
 }
+
+.navbar a:hover {
+    background-color: #ff9100;
+    border-radius: 8px;
+    padding: 3px;
+}
+
 .navbar {
     display: flex;
     flex-wrap: wrap;
@@ -104,11 +111,6 @@ body {
 }
 
 /* index */
-.burguersimple {
-    width: 200px;
-    height: 200px;
-    
-}
 
 .card {
     width: 15rem;
@@ -121,6 +123,37 @@ body {
     justify-content: center;
     margin: auto;
 }
+.card-precio {
+    color:rgb(255, 136, 0);
+}
+
+.botoncito-de-cards{
+    border: 0;
+    background-image: linear-gradient(
+        150deg,
+        #D34848,
+        #FF8162,
+        #FFFA67
+    ) ;
+border-radius: 8px;
+color: white;
+display: flex;
+padding: 2px;
+cursor: pointer;
+font-size: 18px;
+transition: .3s;
+}
+.botoncito-de-cards span {
+    background-color: #222831;
+    padding: 7px 14px;
+    border-radius: 6px;
+    transition: .3s;
+}
+
+.botoncito-de-cards:hover .span-card{
+    background: none;
+}
+
 
 .img-ofertas {
     width: 300px;
@@ -195,6 +228,14 @@ footer {
     bottom: 0;
 
 }
+
+.footer ul li a:hover {
+    background-color: #FF8162;
+    border-radius: 8px;
+    padding: 3px;
+}
+
+
 .footer-contacto{ 
     background-color: #222831;
 }
@@ -209,8 +250,14 @@ footer {
 .titles-menus {
     color: white;
     font-size: 50px;
+    display: inline-block;
+    background-color: #414040;
+    border-radius: 90px;
+    padding: 4px;
 }
-
+.div-text-menu {
+    text-align: center;
+}
 
 /*nosotros*/
 .main-nosotros {
@@ -241,10 +288,24 @@ grid-template-columns: repeat(2,1fr);
 /*contacto*/
 .main-contacto {
 color:white;
-background-color: #414040;
+background-image: url(../assets/img/fondo2.avif);
 }
+.formulario {
+    border-radius: 10px;
+    
+}
+.h5-formulario {
+    color: black;
+}
+
+.controles {
+    text-align: center;
+}
+
 .h2-Contacto {
     text-align: center;
+    background-color: #414040;
+    border-radius: 50px;
 }
 .main-contacto h2 {
     font-size: 50px;
@@ -252,6 +313,18 @@ background-color: #414040;
 .main-contacto p {
     font-size: 30px;
     padding: 10px;
+}
+.h3-formulario {
+    text-align: center;
+    background-color: #414040;
+    border-radius: 50px;
+}
+.bottoncito-form {
+    border-radius: 50px;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+background-color: #ff9100;
 }
 
 
