@@ -1,0 +1,90 @@
+.main {
+    background-image: url(../assets/img/fondohambur.jpg) ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.hamburguesamenu { 
+    width: 200px;
+    height: 200px;
+    border-radius: 10%
+}
+.papasmenu {
+    width: 200px;
+    height: 200px;
+    border-radius: 10% ;
+}
+.bebidamenu {
+    width: 200px;
+    height: 200px;
+    border-radius: 10%
+}
+
+
+.img-ofertas {
+    width: 300px;
+    height: 200px;
+    border: 2px solid black;
+}
+.ofertas {
+    margin-bottom: 5rem;
+}
+
+.precios {
+    color: #FFD369;
+}
+
+.h3-2{
+    color: white;
+} 
+.aside {
+    display: flex;
+    gap: 200px;
+    justify-content: center;
+}
+
+.main-menu {
+    background-image: url(../assets/img/fondo2.avif) ;
+}
+
+/* nosotros*/
+.main-nosotros {
+    width: 90%;
+    max-width: 1000px;
+    margin: 1.6em auto;
+    grid-template-columns:repeat(2,1fr) ;
+    background-color: #414040;
+}
+.header-grids {
+    font-family: altaletra;
+    background-image: url(../assets/img/fondo2.avif);
+}
+.article-derecha {
+    color: white;
+}
+.main-nosotros {
+    display: grid;
+
+grid-template-columns: repeat(2,1fr);
+}
+.main-nosotros h2 {
+    text-align: center;
+}
+.grid-body-nosotros {
+    background-color:  #414040;
+}
+
+/*Contacto*/
+
+.main-contacto {
+    color:white;
+    background-image: url(../assets/img/fondo2.avif);
+    h2 {
+        font-size: 50px;
+    }
+    p {
+        font-size: 30px;
+        padding: 10px;
+    }
+    }

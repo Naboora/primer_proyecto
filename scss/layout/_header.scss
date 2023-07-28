@@ -1,0 +1,48 @@
+body {
+    font-family: altaletra;
+}
+
+.header-grids {
+    width: 100%;
+}
+
+.header{
+    width: 100%;
+    display: flex;
+    background-color:#272727;
+    justify-content: space-between;
+    color: white;
+    div {
+        div {
+            display: flex;
+            img {width: 40px;
+                height: 40px;
+            }
+        }
+    }
+        nav {
+        margin: 20px;
+
+        ul {
+            display: flex;
+            list-style: none;
+            gap: 40px;
+            text-decoration: none;
+            flex-wrap: wrap;
+
+            li  {
+                a{
+                    text-decoration: none;
+                    color: white;
+                    font-size: 20px;
+
+                    &:hover{
+                        background-color: #ff9100;
+                        border-radius: 8px;
+                        padding: 3px;
+                    }
+                }
+            }
+        }
+    }
+}
