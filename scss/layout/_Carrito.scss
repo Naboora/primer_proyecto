@@ -1,0 +1,89 @@
+.main-Carrito {
+    color: $color-texto-principal;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+/* Estilos para la sección del carrito */
+.carrito {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: black;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.lista-productos {
+    list-style: none;
+    padding: 0;
+}
+
+.producto {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.producto .nombre-producto {
+    flex: 1;
+}
+
+.producto .precio {
+    margin-left: 20px;
+}
+
+.btn-eliminar {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.total-carrito {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.total-texto {
+    margin-right: 10px;
+}
+
+.total-precio {
+    font-size: 1.2em;
+    color: #e74c3c;
+}
+
+.btn-comprar {
+    display: block;
+    margin: 20px auto;
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-comprar:hover {
+    background-color: #00ff6a;
+}
+
+.carrito-rellenito {
+    height: 210px
+}

@@ -1,10 +1,8 @@
 .carrucel-piola {
     height: 500px; 
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flex(hidden,center,center);
 }
+
 
 .carousel-inner img {
     width: 100%; 

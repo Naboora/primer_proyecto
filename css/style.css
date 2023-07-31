@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -14,7 +15,7 @@ body {
   display: flex;
   background-color: #272727;
   justify-content: space-between;
-  color: white; }
+  color: #ffffff; }
   .header div div {
     display: flex; }
     .header div div img {
@@ -30,7 +31,7 @@ body {
       flex-wrap: wrap; }
       .header nav ul li a {
         text-decoration: none;
-        color: white;
+        color: #ffffff;
         font-size: 20px; }
         .header nav ul li a:hover {
           background-color: #ff9100;
@@ -44,22 +45,7 @@ body {
   background-repeat: no-repeat;
   width: 100%; }
 
-.hamburguesamenu {
-  width: 200px;
-  height: 200px;
-  border-radius: 10%; }
-
-.papasmenu {
-  width: 200px;
-  height: 200px;
-  border-radius: 10%; }
-
-.bebidamenu {
-  width: 200px;
-  height: 200px;
-  border-radius: 10%; }
-
-.img-ofertas {
+.img-ofertas, .img-lo-quemas-sale {
   width: 300px;
   height: 200px;
   border: 2px solid black; }
@@ -141,10 +127,85 @@ footer {
   margin: 20px;
   color: white; }
 
+.main-Carrito {
+  color: #ffffff; }
+
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0; }
+
+h2 {
+  margin-top: 0; }
+
+/* Estilos para la sección del carrito */
+.carrito {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: black;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); }
+
+.lista-productos {
+  list-style: none;
+  padding: 0; }
+
+.producto {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0; }
+
+.producto .nombre-producto {
+  flex: 1; }
+
+.producto .precio {
+  margin-left: 20px; }
+
+.btn-eliminar {
+  background-color: #e74c3c;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer; }
+
+.total-carrito {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 20px;
+  font-weight: bold; }
+
+.total-texto {
+  margin-right: 10px; }
+
+.total-precio {
+  font-size: 1.2em;
+  color: #e74c3c; }
+
+.btn-comprar {
+  display: block;
+  margin: 20px auto;
+  background-color: #e74c3c;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer; }
+
+.btn-comprar:hover {
+  background-color: #00ff6a; }
+
+.carrito-rellenito {
+  height: 210px; }
+
 .carrucel-piola {
   height: 500px;
-  overflow: hidden;
   display: flex;
+  overflow: hidden;
   justify-content: center;
   align-items: center; }
 

@@ -5,28 +5,16 @@
     background-repeat: no-repeat;
     width: 100%;
 }
-.hamburguesamenu { 
-    width: 200px;
-    height: 200px;
-    border-radius: 10%
-}
-.papasmenu {
-    width: 200px;
-    height: 200px;
-    border-radius: 10% ;
-}
-.bebidamenu {
-    width: 200px;
-    height: 200px;
-    border-radius: 10%
-}
-
 
 .img-ofertas {
     width: 300px;
     height: 200px;
     border: 2px solid black;
 }
+.img-lo-quemas-sale {
+    @extend .img-ofertas;
+}
+
 .ofertas {
     margin-bottom: 5rem;
 }

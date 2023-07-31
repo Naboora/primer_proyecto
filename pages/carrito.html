@@ -1,10 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carrito</title>
+    <meta name="description" content="Las mejores hamburguesas de la zona,envios gratis a toda la zona">
+    <meta name="keywords" content="Comida,Barata,Hamburguesas,Papas,Bebida,Comida rapida,envio gratis">
+    <meta name="author" content="Tobias luis fourcade">
+    <meta name="copyright" content="Beer and Burguers">
+    <meta property="og:title" content="Beer and Burger">
+    <meta property="og:description" content="Las mejores hamburguesas de la zona,envios gratis a toda la zona"> <!--no pueden haber mas de 50caracteres-->
+    <meta property="og:site_name" content="">
+    <meta property="og:url" content="">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://puppis.vteximg.com.br/arquivos/Pieza-con-logo--link-web.png?v=638205488142500000">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:alt" content="Tienda de comida rapida,hamburguesas,papas y bebidas">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <title>Carrito | Beer and Burgers</title>
+    <link rel="shortcut icon" href="./assets/img/comida-rapida.ico" type="image/x-icon">
     <link rel="stylesheet" href="../css/style.css">
 </head>
 
@@ -17,40 +33,74 @@
                 <img class="logo-img" src="../assets/img/cerveza (1).png" alt="">
             </div>
         </div>
-            <div>
-                <nav>
+        <div>
+            <nav>
                 <ul class="navbar">
                     <li><a href="../index.html">inicio</a></li>
                     <li><a href="../pages/Menu.html">Menu</a></li>
                     <li><a href="../pages/nosotros.html">nosotros</a></li>
                     <li><a href="./contacto.html">Contacto</a></li>
-                    <li><a href="../pages/carrito.html"><img src="../assets/img/carrito-de-compras (1).png" alt=""></a></li>
+                    <li><a href="../pages/carrito.html"><img src="../assets/img/carrito-de-compras (1).png" alt=""></a>
+                    </li>
                 </ul>
-            </div>
+        </div>
         </nav>
-
     </header>
-    <main>
 
+
+    <main class="main-Carrito">
+        <section class="carrito">
+            <h2>Carrito de Compras</h2>
+            <ul class="lista-productos">
+                
+                <li>
+                    <div class="producto">
+                        <span class="nombre-producto">Hamburguesa Clásica</span>
+                        <span class="precio">$1111</span>
+                        <button class="btn-eliminar">Eliminar</button>
+                    </div>
+                </li>
+                <li>
+                    <div class="producto">
+                        <span class="nombre-producto">Papas Fritas</span>
+                        <span class="precio">$1111</span>
+                        <button class="btn-eliminar">Eliminar</button>
+                    </div>
+                </li>
+                
+            </ul>
+            <div class="total-carrito">
+                <span class="total-texto">Total:</span>
+                <span class="total-precio">$1111</span>
+            </div>
+            <button class="btn-comprar">Comprar</button>
+        </section>
     </main>
 
+<div class="carrito-rellenito"></div>
 
-    <footer class="footer">   
+    <footer class="footer">
         <div class="piepagina">
             <div class="parrafos">
-            <p>Contactanos o seguinos en nuestras <b>redes</b></p>
-            <p>Aviso de derechos de autor y restriccion en links </p>
-        </div>
+                <p>Contactanos o seguinos en nuestras <b>redes</b></p>
+                <p>Derechos de autor © 2023 Beer and Burguers</p>
+            </div>
             <ul>
-                <li><a href="https://www.instagram.com/tobias.fourcade/"><img src="../assets/img/instagram.png" alt="">instagram</a></li>
+                <li><a href="https://www.instagram.com/tobias.fourcade/"><img src="../assets/img/instagram.png"
+                            alt="">instagram</a></li>
                 <li><a href="https://www.facebook.com/"><img src="../assets/img/facebook.png" alt="">facebook</a></li>
                 <li><a href="https://web.whatsapp.com/"><img src="../assets/img/whatsapp.png" alt="">whatsapp</a></li>
             </ul>
-            
+
         </div>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+        integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+        crossorigin="anonymous"></script>
     <!--bootstraps-->
 </body>
+
 </html>
