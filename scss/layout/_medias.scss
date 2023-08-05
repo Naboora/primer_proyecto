@@ -23,7 +23,12 @@
  .formulario {
     width: 300px;
  }
+ .div-contenedor-h4 {
+    margin-right: 50px;
+}
 }
 @media (max-width:320px){
-
+    .div-text-menu {
+        margin-right: 100px;
+    }
 }

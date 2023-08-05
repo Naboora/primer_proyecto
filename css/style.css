@@ -248,6 +248,7 @@ h2 {
 
 .titles-menus {
   color: white;
+  text-align: center;
   font-size: 50px;
   display: inline-block;
   background-color: #414040;
@@ -309,4 +310,10 @@ h2 {
     display: flex;
     flex-direction: column; }
   .formulario {
-    width: 300px; } }
+    width: 300px; }
+  .div-contenedor-h4 {
+    margin-right: 50px; } }
+
+@media (max-width: 320px) {
+  .div-text-menu {
+    margin-right: 100px; } }
