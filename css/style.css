@@ -242,8 +242,8 @@ h2 {
 .btn-comprar:hover {
   background-color: #00ff6a; }
 
-.carrito-rellenito {
-  height: 210px; }
+.div-rellenito-carrito {
+  height: 150px; }
 
 .card {
   width: 15rem; }
@@ -331,6 +331,18 @@ h2 {
   background-color: #414040;
   border-radius: 50px; }
 
+@media (max-width: 768px) {
+  .main-nosotros {
+    display: flex;
+    flex-direction: column; }
+  .imagen-contenedor {
+    width: 100%;
+    height: auto;
+    text-align: center; }
+    .imagen-contenedor img {
+      width: 100%;
+      height: auto; } }
+
 @media (max-width: 425px) {
   .h2-bienvenida {
     position: relative;
@@ -347,12 +359,13 @@ h2 {
       position: absolute;
       width: 100%;
       height: auto;
-      background: #272727;
+      background-image: linear-gradient(150deg, #272727, #FF8162, #272727);
       top: 50px;
       left: -100%;
       text-align: center;
       transition: all .5s;
-      z-index: 10; }
+      z-index: 10;
+      border: solid 3px black; }
       .header-grids .navbar ul li {
         margin: 50px 0;
         line-height: 30px; }
