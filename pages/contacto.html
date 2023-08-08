@@ -1,27 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Las mejores hamburguesas de la zona,envios gratis a toda la zona">
     <meta name="keywords" content="Comida,Barata,Hamburguesas,Papas,Bebida,Comida rapida,envio gratis">
     <meta name="author" content="Tobias luis fourcade">
     <meta name="copyright" content="Beer and Burguers">
     <meta property="og:title" content="Beer and Burger">
-    <meta property="og:description" content="Las mejores hamburguesas de la zona,envios gratis a toda la zona">
-    <!--no pueden haber mas de 50caracteres-->
+    <meta property="og:description" content="Las mejores hamburguesas de la zona,envios gratis a toda la zona"> <!--no pueden haber mas de 50caracteres-->
     <meta property="og:site_name" content="">
     <meta property="og:url" content="">
     <meta property="og:type" content="website">
-    <meta property="og:image"
-        content="https://puppis.vteximg.com.br/arquivos/Pieza-con-logo--link-web.png?v=638205488142500000">
+    <meta property="og:image" content="https://puppis.vteximg.com.br/arquivos/Pieza-con-logo--link-web.png?v=638205488142500000">
     <meta property="og:image:type" content="image/png">
     <meta property="og:image:alt" content="Tienda de comida rapida,hamburguesas,papas y bebidas">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
-    <title>Contacto | Beer and Burgers</title>
-    <link rel="shortcut icon" href="../assets/img/comida-rapida.ico" type="image/x-icon">
+    <title>inicio | Beer and Burgers</title>
+    <link rel="shortcut icon" href="./assets/img/comida-rapida.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
 </head>
 
@@ -35,7 +34,11 @@
                 <img class="logo-img" src="../assets/img/cerveza (1).png" alt="">
             </div>
         </div>
-        <nav>
+        <nav class="nav-contenedor"> <!--para el menu hamburguesa-->
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i><img src="../assets/img/menu-hamburguesa (2).png" class="img-navbar" alt=""></i>
+            </label>
             <div>
                 <ul class="navbar">
                     <li><a href="../index.html">inicio</a></li>
@@ -90,6 +93,8 @@
             </ul>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+<!--bootstraps-->
 </body>
-
 </html>

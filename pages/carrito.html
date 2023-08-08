@@ -34,7 +34,11 @@
             </div>
         </div>
         <div>
-            <nav>
+            <nav class="nav-contenedor"> <!--para el menu hamburguesa-->
+                <input type="checkbox" id="check">
+                <label for="check" class="checkbtn">
+                    <i><img src="../assets/img/menu-hamburguesa (2).png" class="img-navbar" alt=""></i>
+                </label>
                 <ul class="navbar">
                     <li><a href="../index.html">inicio</a></li>
                     <li><a href="../pages/Menu.html">Menu</a></li>
@@ -56,14 +60,14 @@
                 <li>
                     <div class="producto">
                         <span class="nombre-producto">Hamburguesa Clásica</span>
-                        <span class="precio">$1111</span>
+                        <span class="precio">$1200</span>
                         <button class="btn-eliminar">Eliminar</button>
                     </div>
                 </li>
                 <li>
                     <div class="producto">
                         <span class="nombre-producto">Papas Fritas</span>
-                        <span class="precio">$1111</span>
+                        <span class="precio">$800</span>
                         <button class="btn-eliminar">Eliminar</button>
                     </div>
                 </li>
@@ -71,12 +75,13 @@
             </ul>
             <div class="total-carrito">
                 <span class="total-texto">Total:</span>
-                <span class="total-precio">$1111</span>
+                <span class="total-precio">$2000</span>
             </div>
             <button class="btn-comprar">Comprar</button>
         </section>
     </main>
 
+    <div class="contenedor-advertencia"><h4 class="h4-advertencia">Por favor, presta atención a tu pedido. En caso de equivocación, el dinero no será devuelto si ha pasado mucho tiempo después del pago.</h4></div>
 <div class="carrito-rellenito"></div>
 
     <footer class="footer">

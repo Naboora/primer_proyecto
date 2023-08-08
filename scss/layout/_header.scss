@@ -1,48 +1,72 @@
-body {
-    font-family: altaletra;
-}
-
 .header-grids {
     width: 100%;
-}
+    font-family: altaletra;
 
-.header{
-    width: 100%;
-    display: flex;
-    background-color: $color-fondo-principal;
-    justify-content: space-between;
-    color: $color-texto-principal;
-    div {
+    .header {
+        width: 100%;
+        height: 80px;
+        display: flex;
+        background-color: $color-fondo-principal;
+        justify-content: space-between;
+        color: $color-texto-principal;
+
         div {
-            display: flex;
-            img {width: 40px;
-                height: 40px;
+            div {
+                display: flex;
+
+                img {
+                    width: 40px;
+                    height: 40px;
+                }
             }
         }
-    }
+
         nav {
-        margin: 20px;
+            margin: 10px;
 
-        ul {
-            display: flex;
-            list-style: none;
-            gap: 40px;
-            text-decoration: none;
-            flex-wrap: wrap;
+            ul {
+                display: flex;
+                list-style: none;
+                gap: 40px;
+                text-decoration: none;
+                flex-wrap: wrap;
 
-            li  {
-                a{
-                    text-decoration: none;
-                    color: $color-texto-principal;
-                    font-size: 20px;
+                li {
+                    a {
+                        text-decoration: none;
+                        color: $color-texto-principal;
+                        font-size: 20px;
 
-                    &:hover{
-                        background-color: #ff9100;
-                        border-radius: 8px;
-                        padding: 3px;
+                        &:hover {
+                            background-color: #ff9100;
+                            border-radius: 8px;
+                            padding: 3px;
+                        }
                     }
                 }
             }
         }
     }
+}
+
+.checkbtn {
+    float: right;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+.img-navbar {
+    height: 30px;
+    width: 30px;
+}
+
+.nav-contendor {
+    height: 30px;
+    width: 30px;
 }

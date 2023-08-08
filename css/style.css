@@ -4,39 +4,66 @@
   padding: 0;
   box-sizing: border-box; }
 
-body {
-  font-family: altaletra; }
+.carrucel-piola {
+  height: 500px;
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center; }
+
+.carousel-inner img {
+  width: 100%;
+  height: auto; }
 
 .header-grids {
-  width: 100%; }
-
-.header {
   width: 100%;
-  display: flex;
-  background-color: #272727;
-  justify-content: space-between;
-  color: #ffffff; }
-  .header div div {
-    display: flex; }
-    .header div div img {
-      width: 40px;
-      height: 40px; }
-  .header nav {
-    margin: 20px; }
-    .header nav ul {
-      display: flex;
-      list-style: none;
-      gap: 40px;
-      text-decoration: none;
-      flex-wrap: wrap; }
-      .header nav ul li a {
+  font-family: altaletra; }
+  .header-grids .header {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    background-color: #272727;
+    justify-content: space-between;
+    color: #ffffff; }
+    .header-grids .header div div {
+      display: flex; }
+      .header-grids .header div div img {
+        width: 40px;
+        height: 40px; }
+    .header-grids .header nav {
+      margin: 10px; }
+      .header-grids .header nav ul {
+        display: flex;
+        list-style: none;
+        gap: 40px;
         text-decoration: none;
-        color: #ffffff;
-        font-size: 20px; }
-        .header nav ul li a:hover {
-          background-color: #ff9100;
-          border-radius: 8px;
-          padding: 3px; }
+        flex-wrap: wrap; }
+        .header-grids .header nav ul li a {
+          text-decoration: none;
+          color: #ffffff;
+          font-size: 20px; }
+          .header-grids .header nav ul li a:hover {
+            background-color: #ff9100;
+            border-radius: 8px;
+            padding: 3px; }
+
+.checkbtn {
+  float: right;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  display: none; }
+
+#check {
+  display: none; }
+
+.img-navbar {
+  height: 30px;
+  width: 30px; }
+
+.nav-contendor {
+  height: 30px;
+  width: 30px; }
 
 .main {
   background-image: url(../assets/img/fondohambur.jpg);
@@ -44,6 +71,10 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%; }
+
+.h2-bienvenida {
+  color: white;
+  text-align: center; }
 
 .img-ofertas, .img-lo-quemas-sale {
   width: 300px;
@@ -101,6 +132,18 @@ body {
   .main-contacto p {
     font-size: 30px;
     padding: 10px; }
+
+/*Carrito*/
+.contenedor-advertencia {
+  background: #414040;
+  display: inline-block;
+  border: 1px solid red;
+  border-radius: 10px;
+  text-align: center; }
+
+.h4-advertencia {
+  font-size: 24px;
+  color: white; }
 
 footer {
   background-color: #1d1c1c;
@@ -202,17 +245,6 @@ h2 {
 .carrito-rellenito {
   height: 210px; }
 
-.carrucel-piola {
-  height: 500px;
-  display: flex;
-  overflow: hidden;
-  justify-content: center;
-  align-items: center; }
-
-.carousel-inner img {
-  width: 100%;
-  height: auto; }
-
 .card {
   width: 15rem; }
 
@@ -300,20 +332,57 @@ h2 {
   border-radius: 50px; }
 
 @media (max-width: 425px) {
+  .h2-bienvenida {
+    position: relative;
+    top: 50px; }
   .aside {
     flex-direction: column;
     align-items: center;
-    text-align: center; } }
+    text-align: center; }
+  .checkbtn {
+    display: block; }
+  .header-grids {
+    display: block; }
+    .header-grids .navbar {
+      position: absolute;
+      width: 100%;
+      height: auto;
+      background: #272727;
+      top: 50px;
+      left: -100%;
+      text-align: center;
+      transition: all .5s;
+      z-index: 10; }
+      .header-grids .navbar ul li {
+        margin: 50px 0;
+        line-height: 30px; }
+        .header-grids .navbar ul li a {
+          font-size: 20px; }
+  .li a:hover, li a.active {
+    background: none; }
+  #check:checked ~ ul {
+    left: 0; }
+  .header-grids .header nav ul {
+    display: block; }
+    .header-grids .header nav ul li {
+      margin-bottom: 30px; } }
 
 @media (max-width: 375px) {
   .header {
-    display: flex;
-    flex-direction: column; }
+    display: flex; }
   .formulario {
     width: 300px; }
   .div-contenedor-h4 {
-    margin-right: 50px; } }
+    margin-right: 50px; }
+  .logo-img {
+    width: 20px;
+    height: 20px; }
+  .div-text-menu {
+    margin-right: 80px; } }
 
 @media (max-width: 320px) {
   .div-text-menu {
-    margin-right: 100px; } }
+    margin-right: 100px; }
+  .h2-bienvenida {
+    position: relative;
+    top: 50px; } }

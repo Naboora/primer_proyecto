@@ -5,6 +5,10 @@
     background-repeat: no-repeat;
     width: 100%;
 }
+.h2-bienvenida {
+    color: white;
+    text-align: center;
+}
 
 .img-ofertas {
     width: 300px;
@@ -75,4 +79,18 @@ grid-template-columns: repeat(2,1fr);
         font-size: 30px;
         padding: 10px;
     }
+    }
+
+    /*Carrito*/
+    .contenedor-advertencia {
+        background: #414040;
+        display: inline-block;
+        border: 1px solid red;
+        border-radius: 10px;
+        text-align: center;
+    }
+    .h4-advertencia {
+        font-size: 24px;
+        color: white;
+
     }
